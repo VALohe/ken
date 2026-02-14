@@ -7,11 +7,19 @@ function nextPage(id) {
 
 function response(text, id) {
     document.getElementById(id).innerText = text;
+
+    // Slight romantic escalation background
+    if (id === "answer4" || id === "answer5" || id === "answer6") {
+        document.body.style.background = "#ffd6e0";
+    }
 }
 
 function yesClicked() {
     const responseText = document.getElementById("finalResponse");
     responseText.innerText = "hehe I KNOW 😌💗";
+
+    // Dramatic glow effect
+    document.body.style.background = "#ffb3c6";
 }
 
 function moveButton() {
