@@ -6,6 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    transition: background 0.5s ease;
 }
 
 .container {
@@ -14,7 +15,7 @@ body {
     padding: 40px;
     border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-    width: 350px;
+    width: 360px;
 }
 
 .page {
@@ -47,9 +48,9 @@ p {
     font-weight: 500;
     color: #5e4b56;
 }
+
 #finalResponse {
     font-size: 18px;
     margin-top: 20px;
     color: #fb6f92;
 }
-
