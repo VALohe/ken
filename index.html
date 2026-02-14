@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>For My smol babygirl 💗</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Page 1 -->
+    <div id="page1" class="page active">
+        <h1>Hi my dumpallu ranii 🥺</h1>
+        <button onclick="nextPage('page2')">touch me 💌</button>
+    </div>
+
+    <!-- Page 2 -->
+    <div id="page2" class="page">
+        <h2>Do you know how much I love you?</h2>
+        <button onclick="response('Wrong. It’s more than that 😌', 'answer2')">Yes</button>
+        <button onclick="response('Correct. Because it’s infinite , hehehhehe', 'answer2')">No</button>
+        <p id="answer2"></p>
+        <button onclick="nextPage('page3')">Next ➡️</button>
+    </div>
+
+    <!-- Page 3 -->
+    <div id="page3" class="page">
+        <h2>What are we?</h2>
+        <button onclick="response('NA buchi chelli 💏', 'answer3')">anna chellilu 💏</button>
+        <button onclick="response('my other half indeed ', 'answer3')">Soulmates</button>
+        <button onclick="response('The cutest chaos ever 💗', 'answer3')">Chaos</button>
+        <p id="answer3"></p>
+        <button onclick="nextPage('final')">Next ➡️</button>
+    </div>
+
+    <!-- Final Page -->
+    <div id="final" class="page">
+        <h1>So I have something to ask you…</h1>
+        <h2>Will you b my poookie wookie 4ever nd ever 💖</h2>
+        <button onclick="yesClicked()">OmagaWWW YessS 😭💘</button>
+        <button id="noBtn" onmouseover="moveButton()">Nuh uh 🙄</button>
+        <p id="finalResponse"></p>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
